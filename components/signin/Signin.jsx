@@ -164,7 +164,7 @@ export default function SignIn() {
               >
                 Sign Up
               </Button>
-              <Link href="/login">
+              <Link href="/login" passHref={true}>
                 <Button fullWidth variant="contained" sx={{ mt: 3, mb: 2 }}>
                   Log in
                 </Button>
