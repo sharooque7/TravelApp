@@ -5,7 +5,7 @@ import Head from "next/head";
 import Layout from "../../../components/layout/Layout";
 import { useRouter } from "next/router";
 
-const index = (props) => {
+const Index = (props) => {
   const router = useRouter();
   const ISSERVER = typeof window === "undefined";
   let token = "";
@@ -90,4 +90,4 @@ const helper = async (path, id) => {
     conn.close();
   }
 };
-export default index;
+export default Index;
