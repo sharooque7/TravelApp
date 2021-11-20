@@ -4,7 +4,7 @@ import Image from "next/image";
 const MeetupDetail = (props) => {
   return (
     <section className={style.detail}>
-      <Image src={props.image} alt={props.title} />
+      <img src={props.image} alt={props.title} />
       <h1>{props.title}</h1>
       <address>{props.address}</address>
       <p>{props.description}</p>

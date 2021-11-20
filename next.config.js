@@ -2,6 +2,7 @@
 //   reactStrictMode: false,
 // };
 module.exports = {
+  eslint: { ignoreDuringBuilds: true },
   async headers() {
     return [
       {
