@@ -43,7 +43,7 @@ function NewMeetupForm(props) {
       }
     };
     fetch();
-  }, [id]);
+  }, [id, token]);
 
   async function submitHandler(event) {
     event.preventDefault();

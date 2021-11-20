@@ -18,7 +18,7 @@ const HomePage = (props) => {
       localStorage.removeItem("token");
       router.push("/login");
     }, remainingMilliseconds);
-  }, []);
+  }, [router]);
 
   return (
     <Layout>

@@ -5,6 +5,7 @@ import axios from "axios";
 import Link from "next/link";
 import { useState } from "react";
 import Modal from "./Modal";
+import Image from "next/image";
 
 function MeetupItem(props) {
   if (process.browser) {
@@ -67,7 +68,7 @@ function MeetupItem(props) {
           handleClose={handleClose}
         />
         <div className={classes.image}>
-          <img src={props.image} alt={props.title} />
+          <Image src={props.image} alt={props.title} />
         </div>
         <div className={classes.content}>
           <h3>{props.title}</h3>
