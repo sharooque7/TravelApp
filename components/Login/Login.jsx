@@ -111,6 +111,12 @@ export default function SignIn() {
             <Typography component="h1" variant="h5">
               Log in
             </Typography>
+            <div>
+              {" "}
+              <Typography component="span" variant="span">
+                Sample Credentials <br /> ozil@gmail.com Arsenal
+              </Typography>
+            </div>
             <Box
               component="form"
               onSubmit={handleSubmit}
